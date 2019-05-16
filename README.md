@@ -25,7 +25,7 @@ The jupyter_http_over_ws extension is authored by the Colaboratory team and avai
 > Step 3: Start server and authenticate
 New notebook servers are started normally, though you will need to set a flag to explicitly trust WebSocket connections from the Colaboratory frontend.
 
-```python
+```c
 jupyter notebook \
   --NotebookApp.allow_origin='https://colab.research.google.com' \
   --port=8888 \
